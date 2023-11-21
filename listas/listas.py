@@ -1,16 +1,25 @@
-# Basta con colocar la funcion list() o corchetes
+# Las sublistas son una extraccion de la lista en cuestión
 # Los´índices en python comienzan en 0
 
-#lista = list(1,3.14,'Perucito',False)
-lista = [1,3.14,'Perucito',False]
-
-lista_strings = ['Juan', 'Rojas','Sky']
+#               0           1       2       3       4
 lista_cursos = ['Python', 'Flask','SQL','Laravel','Java']
-lista_enteros = [14,12,34,-1]
-lista_floats = [14.2, 12.25,144.6]
-lista_booleanos = [True, False, (1 > 1)]
 
-# Actualizar registro de lista
-lista_cursos[4] = 'Rust'
+#[start:end]
+sub_lista = lista_cursos[1:4]
+print(sub_lista)
 
-print(lista_cursos[4])
+#a partir de [start:]
+sub_lista = lista_cursos[3:]
+print(sub_lista)
+
+#hasta el [:end]
+sub_lista = lista_cursos[:1]
+print(sub_lista)
+
+#[start:end:skip]
+sub_lista = lista_cursos[1:5:2]
+print(sub_lista)
+
+#[:]
+sub_lista = lista_cursos[:]
+print(sub_lista)
