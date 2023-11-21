@@ -1,4 +1,6 @@
 # Las variables pueden almacenar diferentes tipos de datos en diferentes momentos
+# Para tipo de dato,k se usa la funcion (type)
+
 valor = "Noah"
 print(type(valor))
 
