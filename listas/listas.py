@@ -5,10 +5,12 @@
 lista = [1,3.14,'Perucito',False]
 
 lista_strings = ['Juan', 'Rojas','Sky']
-lista_cursos = ['Python', 'Flask','SQL','Laravel']
+lista_cursos = ['Python', 'Flask','SQL','Laravel','Java']
 lista_enteros = [14,12,34,-1]
 lista_floats = [14.2, 12.25,144.6]
 lista_booleanos = [True, False, (1 > 1)]
 
-#print(lista_cursos[3])
-print(lista_cursos[-1])
+# Actualizar registro de lista
+lista_cursos[4] = 'Rust'
+
+print(lista_cursos[4])
