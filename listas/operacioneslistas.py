@@ -17,3 +17,7 @@ print(max(lista))
 # .in para saber si un elemento esta dentro del listado
 print(94 in lista)
 print(64 not in lista)
+
+# .index para imprimir la ubicación del elemento
+ubicacion = lista.index(23)
+print(ubicacion)
