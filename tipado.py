@@ -1,13 +1,12 @@
 # Las variables pueden almacenar diferentes tipos de datos en diferentes momentos
-
 valor = "Noah"
-print(valor)
+print(type(valor))
 
 valor = 2
-print(valor)
+print(type(valor))
 
 valor = 10.2
-print(valor)
+print(type(valor))
 
 valor = True
-print(valor)
+print(type(valor))
