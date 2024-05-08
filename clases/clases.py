@@ -1,5 +1,13 @@
+# atributos de clase: le pertenecen a la misma clase
+
 class Usuario:
-    pass
+    #attr de clase
+    username = 'Username por default'
+    email = ''
+
+Usuario.username='User01'
+Usuario.email='test@test.com'
 
 noah = Usuario()
-print(noah)
+print(Usuario.username)
+print(Usuario.email)
