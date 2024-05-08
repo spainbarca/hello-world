@@ -1,9 +1,14 @@
-def saludar():
+def saludar(username):
+    mensaje = f'Hola {username}' # Variable local
 
-    def mostrar_mensaje():
-        print("Hola, estamos en el curso de python")
+    def mostrar_mensaje(): # Anidada
+        print(mensaje)
 
     return mostrar_mensaje
 
-respuesta = saludar()
+username = 'Noah'
+respuesta = saludar(username)
+
+username = 'Troll'
+
 respuesta()
