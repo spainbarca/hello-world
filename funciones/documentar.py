@@ -11,9 +11,22 @@ def suma(numero_1, numero_2):
 
     Se retorna la suma de los parámetros.
 
+    >>> suma(10, 20)
+    30
+
+    >>> suma(100, 200)
+    300
+
     """
     return numero_1 + numero_2
 
 
+def resta(numero_1, numero_2):
+    """
+    >>> resta(100, 200)
+    -100
+    """
+    return numero_1 - numero_2 
+
 #print(suma.__doc__)
-print(help(suma))
+#print(help(suma))
