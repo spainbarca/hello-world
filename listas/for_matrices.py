@@ -7,3 +7,11 @@ for fila in matriz:
     for elemento in fila:
         print(elemento, end=" ")
     print()
+
+
+print()
+
+for i in range(0, len(matriz)):
+    for j in range(0, len(matriz[i])):
+        print(matriz[i][j], end=" ")
+    print()
